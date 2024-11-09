@@ -1,0 +1,805 @@
+Index: components/button/largeButton/index.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/button/largeButton/index.ts b/components/button/largeButton/index.ts
+new file mode 100644
+--- /dev/null	
++++ b/components/button/largeButton/index.ts	
+@@ -0,0 +1,2 @@
++import LButton from './LButton'
++export default LButton
+Index: components/searchBar/SearchBar.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/searchBar/SearchBar.tsx b/components/searchBar/SearchBar.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/searchBar/SearchBar.tsx	
+@@ -0,0 +1,44 @@
++import * as React from 'react'
++import IconButton from '@mui/material/IconButton'
++import MenuIcon from '@mui/icons-material/Menu'
++import SearchIcon from '@mui/icons-material/Search'
++import AccountCircleIcon from '@mui/icons-material/AccountCircle'
++import styled from 'styled-components'
++import { InputBase } from '@mui/material'
++
++export default function SearchBar() {
++  return (
++    <WholeContainer>
++      <SearchBarContainer>
++        <IconButton type="button">
++          <MenuIcon />
++        </IconButton>
++        <StyledInputBase placeholder={'검색어를 입력하세요'} />
++        <IconButton type="button">
++          <SearchIcon />
++        </IconButton>
++        <IconButton type="button">
++          <AccountCircleIcon />
++        </IconButton>
++      </SearchBarContainer>
++    </WholeContainer>
++  )
++}
++
++const SearchBarContainer = styled.div`
++  display: flex;
++  width: 90%;
++  border-radius: 50px;
++  background-color: rgba(214, 214, 214, 0.5);
++  margin: 20px;
++  height: 20%;
++`
++
++const StyledInputBase = styled(InputBase)`
++  flex: 1;
++`
++
++const WholeContainer = styled.div`
++  justify-content: space-around;
++  display: flex;
++`
+Index: components/ListDividers.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/ListDividers.tsx b/components/ListDividers.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/ListDividers.tsx	
+@@ -0,0 +1,49 @@
++import * as React from 'react'
++import List from '@mui/material/List'
++import ListItem from '@mui/material/ListItem'
++import ListItemText from '@mui/material/ListItemText'
++import Divider from '@mui/material/Divider'
++
++const style = {
++  p: 0,
++  width: '90%',
++  maxHeight: '500px',
++  borderRadius: 2,
++  border: '1px solid',
++  borderColor: 'divider',
++  backgroundColor: 'background.paper',
++}
++
++const listItemStyle = {
++  height: '70px', // 각 항목의 높이를 픽셀로 설정
++}
++
++export default function ListDividers() {
++  return (
++    <List sx={style} aria-label="mailbox folders">
++      <ListItem sx={listItemStyle}>
++        <ListItemText primary="거실" />
++      </ListItem>
++      <Divider component="li" />
++      <ListItem sx={listItemStyle}>
++        <ListItemText primary="부엌" />
++      </ListItem>
++      <Divider component="li" />
++      <ListItem sx={listItemStyle}>
++        <ListItemText primary="화장실" />
++      </ListItem>
++      <Divider component="li" />
++      <ListItem sx={listItemStyle}>
++        <ListItemText primary="방1" />
++      </ListItem>
++      <Divider component="li" />
++      <ListItem sx={listItemStyle}>
++        <ListItemText primary="방2" />
++      </ListItem>
++      <Divider component="li" />
++      <ListItem sx={listItemStyle}>
++        <ListItemText primary="방3" />
++      </ListItem>
++    </List>
++  )
++}
+Index: pages/SignIn.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pages/SignIn.tsx b/pages/SignIn.tsx
+new file mode 100644
+--- /dev/null	
++++ b/pages/SignIn.tsx	
+@@ -0,0 +1,37 @@
++import styled from 'styled-components'
++import SInput from '@/components/input/SInput/SInput'
++import SButton from '@/components/button/smallButton/SButton'
++
++function SignIn() {
++  return (
++    <LoginContainer>
++      <LogoImage src="/images/ADizziLogo.png" />
++      <SInput label="이메일" />
++      <SInput label="비밀번호" />
++      <SButton label="로그인" />
++      <LinkLabel>회원가입 / 비밀번호 찾기</LinkLabel>
++    </LoginContainer>
++  )
++}
++
++const LoginContainer = styled.div`
++  display: flex;
++  flex-direction: column;
++  align-items: center;
++  height: 100vh;
++  justify-content: center;
++  background-color: #f0f0f0;
++`
++
++const LogoImage = styled.img`
++  width: 150px;
++  height: 150px;
++  border-radius: 50%;
++`
++
++const LinkLabel = styled.div`
++  color: #595959;
++  font-size: 18px;
++`
++
++export default SignIn
+Index: components/button/smallButton/SButton.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/button/smallButton/SButton.tsx b/components/button/smallButton/SButton.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/button/smallButton/SButton.tsx	
+@@ -0,0 +1,31 @@
++import styled from 'styled-components'
++type ButtonProps = {
++  label: string
++}
++
++function SButton({ label }: ButtonProps) {
++  return (
++    <SmallButtonContainer>
++      <LabelText>{label}</LabelText>
++    </SmallButtonContainer>
++  )
++}
++
++const SmallButtonContainer = styled.div`
++  display: flex;
++  background-color: #5dda6f;
++  width: 60%;
++  height: 43px;
++  border-radius: 10px;
++  align-content: center;
++  align-items: center;
++  justify-content: space-around;
++  flex-wrap: wrap;
++  margin: 20px;
++`
++const LabelText = styled.div`
++  font-weight: bold;
++  color: white;
++`
++
++export default SButton
+Index: components/button/largeButton/LButton.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/button/largeButton/LButton.tsx b/components/button/largeButton/LButton.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/button/largeButton/LButton.tsx	
+@@ -0,0 +1,29 @@
++import styled from 'styled-components'
++
++type ButtonProps = {
++  label: string
++}
++
++function LButton({ label }: ButtonProps) {
++  return (
++    <LargeButtonContainer>
++      <LabelText>{label}</LabelText>
++    </LargeButtonContainer>
++  )
++}
++
++const LargeButtonContainer = styled.div`
++  background-color: #5dda6f;
++  width: 90%;
++  height: 50px;
++  border-radius: 10px;
++  display: flex;
++  align-items: center;
++  justify-content: center;
++`
++const LabelText = styled.div`
++  font-weight: bold;
++  color: white;
++`
++
++export default LButton
+Index: components/tabs/CustomTabs.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/tabs/CustomTabs.tsx b/components/tabs/CustomTabs.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/tabs/CustomTabs.tsx	
+@@ -0,0 +1,48 @@
++import * as React from 'react'
++import Tabs from '@mui/material/Tabs'
++import Tab from '@mui/material/Tab'
++import TabContext from '@mui/lab/TabContext'
++import TabPanel from '@mui/lab/TabPanel'
++import { useState } from 'react'
++import styled from 'styled-components'
++import ImageListView from '@/components/ImageListView/ImageListView'
++import CustomDivider from '@/components/divider/CustomDivider'
++
++export default function CustomTabs() {
++  const [value, setValue] = useState('1')
++  const handleChange = (event: unknown, newValue: string) => {
++    setValue(newValue)
++  }
++
++  return (
++    <TabContext value={value}>
++      <StyledTabs value={value} onChange={handleChange}>
++        <StyledTab label="Room" value="1" />
++        <StyledTab label="Item" value="2" />
++      </StyledTabs>
++      <TabPanel value="1">
++        <CustomDivider />
++      </TabPanel>
++      <TabPanel value="2">
++        <ImageListView />
++      </TabPanel>
++    </TabContext>
++  )
++}
++
++const StyledTabs = styled(Tabs)`
++  font-weight: bold;
++  & .MuiTabs-indicator {
++    background-color: #5dda6f;
++  }
++`
++
++const StyledTab = styled(Tab)`
++  flex: 1;
++  font-weight: bold;
++  color: gray;
++  text-transform: none;
++  &.Mui-selected {
++    color: #5dda6f;
++  }
++`
+Index: components/ImageListView/ImageListView.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/ImageListView/ImageListView.tsx b/components/ImageListView/ImageListView.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/ImageListView/ImageListView.tsx	
+@@ -0,0 +1,73 @@
++import * as React from 'react'
++import ImageList from '@mui/material/ImageList'
++import ImageListItem from '@mui/material/ImageListItem'
++import styled from 'styled-components'
++
++export default function ImageListView() {
++  return (
++    <ImageList cols={3}>
++      {itemData.map((item) => (
++        <ImageListItem key={item.img}>
++          <ItemImage
++            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} //과화질 이미지를 제공
++            src={`${item.img}?w=164&h=164&fit=crop&auto=format`} // 기본 이미지 제공
++            loading="lazy" // 이미지가 화면에 보이기 직전에 로드하여 성능 최적화
++          />
++        </ImageListItem>
++      ))}
++    </ImageList>
++  )
++}
++
++const itemData = [
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++  {
++    img: '/images/ADizziLogo.png',
++  },
++]
++
++const ItemImage = styled.img`
++  display: flex;
++  height: 70%;
++`
+Index: components/input/LInput/index.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/input/LInput/index.ts b/components/input/LInput/index.ts
+new file mode 100644
+--- /dev/null	
++++ b/components/input/LInput/index.ts	
+@@ -0,0 +1,2 @@
++import LInput from './LInput'
++export default LInput
+Index: components/header/Header.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/header/Header.tsx b/components/header/Header.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/header/Header.tsx	
+@@ -0,0 +1,27 @@
++import styled from 'styled-components'
++import ArrowBackIcon from '@mui/icons-material/ArrowBack'
++type HeaderProps = {
++  label: string
++}
++function Header({ label }: HeaderProps) {
++  return (
++    <HeaderContainer>
++      <ArrowBackIcon />
++      <HeaderTitle>{label}</HeaderTitle>
++    </HeaderContainer>
++  )
++}
++
++const HeaderContainer = styled.div`
++  display: flex;
++  padding: 40px 20px;
++  width: 100%;
++  height: 100px;
++`
++
++const HeaderTitle = styled.div`
++  font-size: 22px;
++  font-weight: bold;
++`
++
++export default Header
+Index: components/divider/CustomDivider.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/divider/CustomDivider.tsx b/components/divider/CustomDivider.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/divider/CustomDivider.tsx	
+@@ -0,0 +1,57 @@
++import * as React from 'react'
++import List from '@mui/material/List'
++import ListItem from '@mui/material/ListItem'
++import ListItemText from '@mui/material/ListItemText'
++import Divider from '@mui/material/Divider'
++import styled from 'styled-components'
++import IconButton from '@mui/material/IconButton'
++import MoreVertIcon from '@mui/icons-material/MoreVert'
++
++export default function CustomDivider() {
++  return (
++    <StyledList>
++      {roomData.map((room) => (
++        <>
++          <ListItem key={room.text}>
++            <StyledListItemText primary={room.text} />
++            <IconButton type="button">
++              <MoreVertIcon />
++            </IconButton>
++          </ListItem>
++          <StyledDivider />
++        </>
++      ))}
++    </StyledList>
++  )
++}
++
++const roomData = [
++  {
++    text: '거실',
++  },
++  {
++    text: '부엌',
++  },
++  {
++    text: '방1',
++  },
++  {
++    text: '방2',
++  },
++  {
++    text: '방3',
++  },
++]
++
++const StyledList = styled(List)`
++  width: 100%;
++`
++
++const StyledListItemText = styled(ListItemText)`
++  color: black;
++`
++
++const StyledDivider = styled(Divider)`
++  color: #d6d6d6;
++  border-bottom-width: 2px;
++`
+Index: components/faButton/FAButton.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/faButton/FAButton.tsx b/components/faButton/FAButton.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/faButton/FAButton.tsx	
+@@ -0,0 +1,31 @@
++import * as React from 'react'
++
++import AddIcon from '@mui/icons-material/Add'
++import styled from 'styled-components'
++import IconButton from '@mui/material/IconButton'
++
++export default function FAButton() {
++  return (
++    <WholeContainer>
++      <FABContainer>
++        <IconButton type="button">
++          <AddIcon style={{ color: 'white', fontSize: '30px' }} />
++        </IconButton>
++      </FABContainer>
++    </WholeContainer>
++  )
++}
++
++const FABContainer = styled.div`
++  background-color: #5dda6f;
++  border-radius: 50px;
++  display: flex;
++  justify-content: center;
++`
++
++const WholeContainer = styled.div`
++  margin-left: 65%;
++  width: 30%;
++  position: fixed;
++  bottom: 10%;
++`
+Index: pages/SignUp.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pages/SignUp.tsx b/pages/SignUp.tsx
+new file mode 100644
+--- /dev/null	
++++ b/pages/SignUp.tsx	
+@@ -0,0 +1,71 @@
++import styled from 'styled-components'
++import LButton from '@/components/button/largeButton/LButton'
++import Header from '@/components/header/Header'
++import LInput from '@/components/input/LInput'
++
++function SignUp() {
++  return (
++    <BackgroundContainer>
++      <Header label="회원가입" />
++      <GroupContainer>
++        <LInput
++          label="아이디"
++          showCheck={false}
++          showRequest={false}
++          showIcon={false}
++        />
++      </GroupContainer>
++      <GroupContainer>
++        <LInput
++          label="비밀번호"
++          showCheck={false}
++          showRequest={false}
++          showIcon={true}
++        />
++        <LInput
++          label="비밀번호 재입력"
++          showCheck={false}
++          showRequest={false}
++          showIcon={true}
++        />
++      </GroupContainer>
++      <GroupContainer>
++        <LInput
++          label="이메일"
++          showCheck={false}
++          showRequest={true}
++          showIcon={false}
++        />
++        <LInput
++          label="인증번호"
++          showCheck={true}
++          showRequest={false}
++          showIcon={false}
++        />
++      </GroupContainer>
++      <ButtonContainer>
++        <LButton label="회원가입" />
++      </ButtonContainer>
++    </BackgroundContainer>
++  )
++}
++
++const BackgroundContainer = styled.div`
++  height: 100vh;
++  background-color: #f0f0f0;
++`
++
++const GroupContainer = styled.div`
++  margin-bottom: 40px;
++  display: flex;
++  justify-content: center;
++  flex-wrap: wrap;
++`
++
++const ButtonContainer = styled.div`
++  display: flex;
++  justify-content: center;
++  margin-top: 20px;
++`
++
++export default SignUp
+Index: components/button/smallButton/index.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/button/smallButton/index.ts b/components/button/smallButton/index.ts
+new file mode 100644
+--- /dev/null	
++++ b/components/button/smallButton/index.ts	
+@@ -0,0 +1,2 @@
++import SButton from './SButton'
++export default SButton
+Index: pages/Room.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pages/Room.tsx b/pages/Room.tsx
+new file mode 100644
+--- /dev/null	
++++ b/pages/Room.tsx	
+@@ -0,0 +1,21 @@
++import SearchBar from '@/components/searchBar/SearchBar'
++import CustomTabs from '@/components/tabs/CustomTabs'
++
++import styled from 'styled-components'
++import FAButton from '@/components/faButton/FAButton'
++
++function Room() {
++  return (
++    <RoomContainer>
++      <SearchBar />
++      <CustomTabs />
++      <FAButton />
++    </RoomContainer>
++  )
++}
++
++const RoomContainer = styled.div`
++  display: flex;
++  flex-direction: column;
++`
++export default Room
+Index: components/input/SInput/SInput.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/input/SInput/SInput.tsx b/components/input/SInput/SInput.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/input/SInput/SInput.tsx	
+@@ -0,0 +1,29 @@
++import styled from 'styled-components'
++
++type SInputFieldProps = {
++  label: string
++}
++
++function SInput({ label }: SInputFieldProps) {
++  return (
++    <SInputContainer>
++      <LabelText>{label}</LabelText>
++    </SInputContainer>
++  )
++}
++
++const SInputContainer = styled.div`
++  width: 80%;
++  height: 46px;
++  border-radius: 10px;
++  background-color: #ffffff;
++  display: flex;
++  align-items: center;
++  margin: 20px;
++`
++
++const LabelText = styled.div`
++  margin-left: 15px;
++`
++
++export default SInput
+Index: components/input/LInput/LInput.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/input/LInput/LInput.tsx b/components/input/LInput/LInput.tsx
+new file mode 100644
+--- /dev/null	
++++ b/components/input/LInput/LInput.tsx	
+@@ -0,0 +1,78 @@
++import styled from 'styled-components'
++import VisibilityIcon from '@mui/icons-material/Visibility'
++import VisibilityOffIcon from '@mui/icons-material/VisibilityOff'
++import { useState } from 'react'
++type LInputProps = {
++  label: string
++  showIcon: boolean
++  showRequest: boolean
++  showCheck: boolean
++}
++
++function LInput({ label, showRequest, showCheck, showIcon }: LInputProps) {
++  const [isVisible, setIsVisible] = useState(true)
++  const toggleVisibility = () => {
++    setIsVisible(!isVisible)
++  }
++  return (
++    <LInputContainer>
++      <LabelText>{label}</LabelText>
++      {showRequest && (
++        <AuthContainer>
++          {' '}
++          <AuthText>인증요청 </AuthText>{' '}
++        </AuthContainer>
++      )}
++      {showCheck && (
++        <AuthContainer>
++          {' '}
++          <AuthText>인증확인 </AuthText>{' '}
++        </AuthContainer>
++      )}
++      {showIcon && (
++        <EyeIcon onClick={toggleVisibility}>
++          {isVisible ? <VisibilityIcon /> : <VisibilityOffIcon />}{' '}
++        </EyeIcon>
++      )}
++    </LInputContainer>
++  )
++}
++
++const LInputContainer = styled.div`
++  width: 90%;
++  height: 50px;
++  border-radius: 10px;
++  border: 1px solid #d5d5d5;
++  background-color: #ffffff;
++  display: flex;
++  justify-content: space-between;
++  align-items: center;
++  margin-bottom: 20px;
++`
++
++const AuthContainer = styled.div`
++  display: flex;
++  align-items: center;
++  justify-content: center;
++  background-color: #d6d6d6;
++  border-radius: 50px;
++  width: 100px;
++  height: 30px;
++  margin-right: 15px;
++`
++
++const EyeIcon = styled.div`
++  margin-right: 15px;
++`
++const LabelText = styled.div`
++  margin-left: 15px;
++  font-size: 20px;
++  color: #595959;
++`
++const AuthText = styled.div`
++  font-weight: bold;
++  font-size: 18px;
++  color: #595959;
++`
++
++export default LInput
+diff --git a/components/input/SInput/index.ts b/components/input/SInput/index.ts
+new file mode 100644
+diff --git a/components/searchBar/index.ts b/components/searchBar/index.ts
+new file mode 100644

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1037c537-7e44-4e38-b957-179e7a33b0cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ImageListView/ImageListView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ImageListView/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/button/largeButton/LButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/button/largeButton/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/button/smallButton/SButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/button/smallButton/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/divider/CustomDivider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/divider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/faButton/FAButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/faButton/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/input/LInput/LInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/input/LInput/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/input/SInput/SInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/input/SInput/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/searchBar/SearchBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/searchBar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tabs/CustomTabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tabs/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ChangePwd.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Room.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/SignIn.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/SignUp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="feature/#1" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/#1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dkswndus&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FRONTLINE2024/ADizzi-APP.git&quot;,
+    &quot;accountId&quot;: &quot;6983e381-34f2-4e70-989b-a6f3b98c8680&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/components/tabs/Centered Tabs.tsx" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2mvkzjh0o02aEh5kqdPpy8oflOz" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.eslint.config.mjs.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "Cherry-picking in master",
+    "last_opened_file_path": "C:/Users/Master/yiu-alsl-adizzi-app-react",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Master\\yiu-alsl-adizzi-app-react\\node_modules\\prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "ts.external.directory.path": "C:\\Users\\Master\\yiu-alsl-adizzi-app-react\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Master\yiu-alsl-adizzi-app-react\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Master\yiu-alsl-adizzi-app-react" />
+      <recent name="C:\Users\Master\yiu-alsl-adizzi-app-react\public\images" />
+      <recent name="C:\Users\Master\yiu-alsl-adizzi-app-react\.husky" />
+      <recent name="C:\Users\Master\yiu-alsl-adizzi-app-react\pages" />
+      <recent name="C:\Users\Master\yiu-alsl-adizzi-app-react\components\input\SInput" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1037c537-7e44-4e38-b957-179e7a33b0cd" name="Changes" comment="" />
+      <created>1727964701531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727964701531</updated>
+      <workItem from="1727964702641" duration="6342000" />
+      <workItem from="1728056130344" duration="30922000" />
+      <workItem from="1728129206334" duration="14724000" />
+      <workItem from="1728316302972" duration="1287000" />
+      <workItem from="1728317783520" duration="1767000" />
+      <workItem from="1728544790550" duration="3509000" />
+      <workItem from="1728714762477" duration="6288000" />
+      <workItem from="1728734072973" duration="4514000" />
+      <workItem from="1728902095506" duration="3014000" />
+      <workItem from="1730213234919" duration="68000" />
+      <workItem from="1730213396973" duration="1292000" />
+      <workItem from="1730356399014" duration="1048000" />
+      <workItem from="1730383072950" duration="1241000" />
+      <workItem from="1730620445682" duration="682000" />
+      <workItem from="1730702469300" duration="21319000" />
+      <workItem from="1730811467486" duration="6800000" />
+      <workItem from="1730870830224" duration="1391000" />
+      <workItem from="1731125962092" duration="1573000" />
+      <workItem from="1731127571048" duration="128000" />
+      <workItem from="1731127710279" duration="12019000" />
+      <workItem from="1731156626880" duration="151000" />
+      <workItem from="1731156796625" duration="243000" />
+      <workItem from="1731157049067" duration="63000" />
+      <workItem from="1731157122963" duration="3483000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="bab51a85-8fcb-4dd5-bace-b472a14af414" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/feature/#1" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="feature/#1" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="bab51a85-8fcb-4dd5-bace-b472a14af414">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 로그인, 회원가입, 비밀번호 재설정, 메인 페이지 ui구현" />
+    <MESSAGE value="feat: 로그인, 회원가입, 비밀번호 재설정, 메인 페이지 ui 구현" />
+    <MESSAGE value="feat: 로그인, 회원가입, 비밀번호 재설정, 메인 페이지 ui 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 로그인, 회원가입, 비밀번호 재설정, 메인 페이지 ui 구현" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/ImageListView/ImageListView.tsx</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/tabs/CustomTabs.tsx</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
