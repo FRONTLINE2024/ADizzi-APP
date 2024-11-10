@@ -9,8 +9,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1037c537-7e44-4e38-b957-179e7a33b0cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/MyAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header/HeaderCollect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/searchBar/SearchBarBasic.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Container.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ImageListView/ImageListView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ImageListView/ImageListView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ImageListView/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/ImageListView/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/largeButton/LButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/largeButton/LButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/largeButton/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/largeButton/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/smallButton/SButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/smallButton/SButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/button/smallButton/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/smallButton/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/divider/CustomDivider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/divider/CustomDivider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/divider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/divider/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/faButton/FAButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/faButton/FAButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/faButton/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/faButton/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/input/LInput/LInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/input/LInput/LInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/input/LInput/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/input/LInput/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/input/SInput/SInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/input/SInput/SInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/input/SInput/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/input/SInput/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/searchBar/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/searchBar/SearchBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/searchBar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/searchBar/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/tabs/CustomTabs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/tabs/CustomTabs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/tabs/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/tabs/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ChangePwd.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ChangePwd.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/MyInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/MyInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Room.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Room.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/SignIn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/SignIn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/SignUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/SignUp.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +62,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/#1" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,27 +93,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.eslint.config.mjs.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "feature/#1",
-    "last_opened_file_path": "C:/Users/Master/yiu-alsl-adizzi-app-react",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Master\\yiu-alsl-adizzi-app-react\\node_modules\\prettier",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "ts.external.directory.path": "C:\\Users\\Master\\yiu-alsl-adizzi-app-react\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.eslint.config.mjs.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/#2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Master/yiu-alsl-adizzi-app-react&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Master\\yiu-alsl-adizzi-app-react\\node_modules\\prettier&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Master\\yiu-alsl-adizzi-app-react\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Master\yiu-alsl-adizzi-app-react\public\images" />
@@ -136,6 +165,7 @@
       <workItem from="1731156796625" duration="243000" />
       <workItem from="1731157049067" duration="63000" />
       <workItem from="1731157122963" duration="4406000" />
+      <workItem from="1731211160316" duration="4604000" />
     </task>
     <servers />
   </component>
