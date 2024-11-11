@@ -1,11 +1,11 @@
 'use client';
 
-import ContainerCamera from '@/pages/ContainerCamera';
+import SearchDetail from '@/pages/SearchDetail';
 
 export default function Home() {
   return (
     <main>
-      <ContainerCamera />
+      <SearchDetail />
     </main>
   );
 }

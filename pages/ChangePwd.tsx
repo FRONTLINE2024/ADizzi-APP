@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Header from '@/components/header';
 import LInput from '@/components/input/LInput';
 import LButton from '@/components/button/largeButton';
+import Header from '@/components/header/Header';
 
 function ChangePwd() {
   return (
