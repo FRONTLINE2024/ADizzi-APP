@@ -9,37 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1037c537-7e44-4e38-b957-179e7a33b0cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ImageListView/ImageListView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ImageListView/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/button/largeButton/LButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/button/largeButton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/button/smallButton/SButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/button/smallButton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/divider/CustomDivider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/divider/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/faButton/FAButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/faButton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/input/LInput/LInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/input/LInput/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/input/SInput/SInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/input/SInput/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/searchBar/SearchBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/searchBar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/tabs/CustomTabs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/tabs/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/ChangePwd.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Room.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/SignIn.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/SignUp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/MyAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +69,7 @@
     "Node.js.eslint.config.mjs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "Cherry-picking in master",
+    "git-widget-placeholder": "feature/#1",
     "last_opened_file_path": "C:/Users/Master/yiu-alsl-adizzi-app-react",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -164,7 +135,7 @@
       <workItem from="1731156626880" duration="151000" />
       <workItem from="1731156796625" duration="243000" />
       <workItem from="1731157049067" duration="63000" />
-      <workItem from="1731157122963" duration="3483000" />
+      <workItem from="1731157122963" duration="4406000" />
     </task>
     <servers />
   </component>
