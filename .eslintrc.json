@@ -16,6 +16,7 @@
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
+    "import/no-anonymous-default-export": "off",
     "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
     "@typescript-eslint/camelcase": "off",
     "import/extensions": [
