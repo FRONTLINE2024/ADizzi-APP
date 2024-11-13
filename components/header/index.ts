@@ -1,2 +1,3 @@
 import Header from './Header';
-export default Header;
+import HeaderCollect from './HeaderCollect';
+export default { Header, HeaderCollect };

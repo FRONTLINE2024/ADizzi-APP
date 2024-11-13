@@ -1,11 +1,11 @@
 'use client';
 
-import MyInfo from '@/pages/MyInfo';
+import Container from '@/pages/Container';
 
 export default function Home() {
   return (
     <main>
-      <MyInfo />
+      <Container />
     </main>
   );
 }
