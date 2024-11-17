@@ -1,11 +1,11 @@
 'use client';
 
-import SearchDetail from '@/pages/SearchDetail';
+import Container from '@/pages/Container';
 
 export default function Home() {
   return (
     <main>
-      <SearchDetail />
+      <Container />
     </main>
   );
 }

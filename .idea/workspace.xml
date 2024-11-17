@@ -9,11 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1037c537-7e44-4e38-b957-179e7a33b0cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/SearchDetail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/listView/ListView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/listView/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Slot.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024-11-10__12_42__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024-11-10_오전_12_42_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/ADizziLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ChangePwd.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ChangePwd.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/searchBar/SearchBarBasic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/searchBar/SearchBarBasic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Container.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +81,8 @@
     &quot;Node.js.eslint.config.mjs.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/#4&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Master/yiu-alsl-adizzi-app-react&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/#5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Master/Desktop/YIU-AISL-CHATBOT-Client-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -142,7 +151,12 @@
       <workItem from="1731211160316" duration="8054000" />
       <workItem from="1731251533665" duration="1940000" />
       <workItem from="1731295866173" duration="723000" />
-      <workItem from="1731296741153" duration="2772000" />
+      <workItem from="1731296741153" duration="4035000" />
+      <workItem from="1731482495425" duration="1220000" />
+      <workItem from="1731552800097" duration="1152000" />
+      <workItem from="1731560121446" duration="2340000" />
+      <workItem from="1731736924694" duration="1801000" />
+      <workItem from="1731848822347" duration="5471000" />
     </task>
     <servers />
   </component>

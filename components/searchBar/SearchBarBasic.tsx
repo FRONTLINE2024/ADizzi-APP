@@ -13,7 +13,8 @@ function SearchBarBasic() {
         <StyledInputBase placeholder={'검색'} />
       </SearchBarBasicContainer>
       <SortingContainer>
-        최신등록순 / 오래된순
+        <LatestText> 최신등록순 </LatestText>/
+        <EarliestText> 오래된순 </EarliestText>
         <ImportExportOutlinedIcon />
       </SortingContainer>
       <FAButton />
@@ -41,4 +42,11 @@ const SortingContainer = styled.div`
   margin-top: 5%;
 `;
 
+const LatestText = styled.div`
+  color: #5dda6f;
+`;
+
+const EarliestText = styled.div`
+  color: black;
+`;
 export default SearchBarBasic;
