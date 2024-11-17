@@ -1,11 +1,11 @@
 'use client';
 
-import Container from '@/pages/Container';
+import ContainerSlotItem from '@/pages/ContainerSlotItem';
 
 export default function Home() {
   return (
     <main>
-      <Container />
+      <ContainerSlotItem />
     </main>
   );
 }
