@@ -1,11 +1,11 @@
 'use client';
 
-import ContainerSlotItem from '@/pages/ContainerSlotItem';
+import SlotItemDropdown from '@/pages/SlotItemDropdown';
 
 export default function Home() {
   return (
     <main>
-      <ContainerSlotItem />
+      <SlotItemDropdown />
     </main>
   );
 }
