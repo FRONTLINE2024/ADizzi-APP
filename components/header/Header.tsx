@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+
 type HeaderProps = {
   label: string;
 };
+
 function Header({ label }: HeaderProps) {
   return (
     <HeaderContainer>
